@@ -31,4 +31,9 @@ Understanding data type
 
 This explains the data type to save your data depending on the range of values in the dataset. For example an aerial imagery with RGB values ranging fron 0 to 255 will be saved as byte while for a dem, you will save it depending on the range of its values.
 
+creating the index shapefile:
+
+```gdaltindex tile_index/ecw_index.shp *.ecw```
+
+```gdaltindex -t_srs EPSG:4326 -src_srs_name src_srs tile_index/ecw_srs_index.shp *.ecw```
 
