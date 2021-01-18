@@ -10,7 +10,9 @@ You can visit the [GDAL Website](https://gdal.org/programs/index.html).
 For example:
 
 ```gdal_info <raster-dataset>``` is for listing information about a raster dataset
+
 ```gdal_translate ...``` converts raster data between different formarts
+
 ```gdaldem``` analyse and visualize DEMs
 
 You can use the softwares for viewing
